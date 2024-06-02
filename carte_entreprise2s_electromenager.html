@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9513cf9de0b015c099509f583ae0ecf2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9513cf9de0b015c099509f583ae0ecf2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9513cf9de0b015c099509f583ae0ecf2 = L.map(
+                "map_9513cf9de0b015c099509f583ae0ecf2",
+                {
+                    center: [46.603354, 1.888334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_db3e6ba7f5f25ec2b601e541a6095ea2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_db3e6ba7f5f25ec2b601e541a6095ea2.addTo(map_9513cf9de0b015c099509f583ae0ecf2);
+        
+    
+            var marker_f014c0da1780ee74d833dc923e7485d9 = L.marker(
+                [46.2044, 5.225],
+                {}
+            ).addTo(map_9513cf9de0b015c099509f583ae0ecf2);
+        
+    
+            var icon_006d5213f550fda0573e6fcc1b7dcefe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f014c0da1780ee74d833dc923e7485d9.setIcon(icon_006d5213f550fda0573e6fcc1b7dcefe);
+        
+    
+        var popup_d6eade3c41824579b0d710ad8c998fed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38a10494197b719b1f245be392b15ff8 = $(`<div id="html_38a10494197b719b1f245be392b15ff8" style="width: 100.0%; height: 100.0%;">Groupe SEB</div>`)[0];
+                popup_d6eade3c41824579b0d710ad8c998fed.setContent(html_38a10494197b719b1f245be392b15ff8);
+            
+        
+
+        marker_f014c0da1780ee74d833dc923e7485d9.bindPopup(popup_d6eade3c41824579b0d710ad8c998fed)
+        ;
+
+        
+    
+    
+            var marker_b50a66b4d559405a1476b8e778cd407f = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_9513cf9de0b015c099509f583ae0ecf2);
+        
+    
+            var icon_7d3375117dc75f1c318ad48763193353 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b50a66b4d559405a1476b8e778cd407f.setIcon(icon_7d3375117dc75f1c318ad48763193353);
+        
+    
+        var popup_aeb3ab1ae7889c15db04d757e296fe41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd3ed009696fe1df846f4a1d40765d68 = $(`<div id="html_cd3ed009696fe1df846f4a1d40765d68" style="width: 100.0%; height: 100.0%;">Beko France</div>`)[0];
+                popup_aeb3ab1ae7889c15db04d757e296fe41.setContent(html_cd3ed009696fe1df846f4a1d40765d68);
+            
+        
+
+        marker_b50a66b4d559405a1476b8e778cd407f.bindPopup(popup_aeb3ab1ae7889c15db04d757e296fe41)
+        ;
+
+        
+    
+    
+            var marker_447c974c3dccabfff2a38df5825f1151 = L.marker(
+                [49.2583, 4.0317],
+                {}
+            ).addTo(map_9513cf9de0b015c099509f583ae0ecf2);
+        
+    
+            var icon_b0f670384ddf1c3abe970f3ca4c41d9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_447c974c3dccabfff2a38df5825f1151.setIcon(icon_b0f670384ddf1c3abe970f3ca4c41d9f);
+        
+    
+        var popup_6e7be440dae74a65ca3ae0b7ddcd6290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32d3c57dfc754eea5010476b5c6f937e = $(`<div id="html_32d3c57dfc754eea5010476b5c6f937e" style="width: 100.0%; height: 100.0%;">Whirlpool France</div>`)[0];
+                popup_6e7be440dae74a65ca3ae0b7ddcd6290.setContent(html_32d3c57dfc754eea5010476b5c6f937e);
+            
+        
+
+        marker_447c974c3dccabfff2a38df5825f1151.bindPopup(popup_6e7be440dae74a65ca3ae0b7ddcd6290)
+        ;
+
+        
+    
+    
+            var marker_b39b98471e2514f4bbb20aa1d330c1f2 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_9513cf9de0b015c099509f583ae0ecf2);
+        
+    
+            var icon_75818c6342cf547e0a36d251ac990923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b39b98471e2514f4bbb20aa1d330c1f2.setIcon(icon_75818c6342cf547e0a36d251ac990923);
+        
+    
+        var popup_7ba9faaa85a57f4c1295c6550027a73c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16db8f6e9c06ad31767c80b64a16462d = $(`<div id="html_16db8f6e9c06ad31767c80b64a16462d" style="width: 100.0%; height: 100.0%;">Miele France</div>`)[0];
+                popup_7ba9faaa85a57f4c1295c6550027a73c.setContent(html_16db8f6e9c06ad31767c80b64a16462d);
+            
+        
+
+        marker_b39b98471e2514f4bbb20aa1d330c1f2.bindPopup(popup_7ba9faaa85a57f4c1295c6550027a73c)
+        ;
+
+        
+    
+    
+            var marker_cbc48eddf9033658387aaba83c3edf76 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_9513cf9de0b015c099509f583ae0ecf2);
+        
+    
+            var icon_0d9e40e49a91b83c3f18e20aca417e15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cbc48eddf9033658387aaba83c3edf76.setIcon(icon_0d9e40e49a91b83c3f18e20aca417e15);
+        
+    
+        var popup_42684c5ff28f7d53b8cbc1f3360e5d9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a91d151af119b7c2ca33955e05bfcd4 = $(`<div id="html_5a91d151af119b7c2ca33955e05bfcd4" style="width: 100.0%; height: 100.0%;">Electrolux France</div>`)[0];
+                popup_42684c5ff28f7d53b8cbc1f3360e5d9b.setContent(html_5a91d151af119b7c2ca33955e05bfcd4);
+            
+        
+
+        marker_cbc48eddf9033658387aaba83c3edf76.bindPopup(popup_42684c5ff28f7d53b8cbc1f3360e5d9b)
+        ;
+
+        
+    
+</script>
+</html>
